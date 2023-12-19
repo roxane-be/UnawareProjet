@@ -1,0 +1,57 @@
+Here you can find all solutions of game
+
+starship mastermind
+5498
+
+World 1 puzzle 
+collect all the boards hidden on the map and solve the puzzle
+
+World 1 password
+CARTE
+
+World 1 box mastermind
+4053
+
+World 1 box piece
+466 - 1.0 - 156.1 - 34
+
+World 1 box cable
+A   1
+B   2
+C   3
+D   4
+solution -> A3, B4, C2, D1
+
+World 1 box Volt 
+* - up - down - up - up - up - down - up
+Value 232
+
+World 2 labyrinth 
+open the red chest, you can find it on the top to right in labyrinth 
+
+World 2 pipe
+join point A to point B with pieces of pipe
+
+World 2 firefly
+* -> light on 
+° -> light off
+
+firefly 3*3
+*°*
+°*°
+*°*
+firefly 4*4 
+***°
+*°*°
+°°*°
+°°°*
+firefly 5*6
+°°°°*°
+°*°°°°
+°°°*°°
+°*°°°*
+°°°*°°
+
+World 2 decrypt
+collect all pieces of paper and with the code decrypt the word (you can find the formula in the page of help of the enigma)
+solution -> UNAWARE
