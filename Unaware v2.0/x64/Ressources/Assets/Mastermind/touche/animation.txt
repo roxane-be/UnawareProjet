@@ -1,0 +1,6 @@
+SPRITES 6 bas1.png bas2.png bas3.png haut1.png haut2.png haut3.png
+
+ANIM PRESS_DOWN 0 2 0.05
+ANIM PRESS_UP 3 5 0.05
+ANIM IDLE_PRESS_DOWN 0 0 0.05
+ANIM IDLE_PRESS_UP 3 3 0.05

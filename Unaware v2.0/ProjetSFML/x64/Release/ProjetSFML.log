@@ -1,0 +1,731 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Le répertoire intermédiaire (x64\Release\) contient des fichiers partagés provenant d'un autre projet (ProjetSFML.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.36.32535 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /I../include /Zi /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt ArchiveCode.c Collision.c definition.c Display.c DisplayBedRoomMap.c DisplayDecryptage.c DisplayDiode.c DisplayIA.c DisplayPlaqueVis.c DisplayCable.c DisplayCutScene.c DisplayDialogue.c DisplayIntroMap.c DisplayIslandMap.c DisplayJungleMap.c DisplayMastermindBox.c DisplayMastermindIntro.c DisplayMenu.c DisplayPuzzle.c DisplayPuzzleJungle.c DisplayShipEndMap.c DisplayTimer.c DisplayTutoBox.c DisplayTutoDecryptage.c DisplayTutoDialogue.c DisplayTutoDiode.c DisplayTutoMastermindIntro.c DisplayTutoPuzzle.c DisplayTutoPuzzleJungle.c DisplayVoltage.c Init.c InitAnim.c InitBedRoomMap.c InitDecryptage.c InitDiode.c InitIA.c InitPlaqueVis.c InitCable.c InitCutScene.c InitDialogue.c InitIntroMap.c InitIslandMap.c InitJungleMap.c InitMastermindIntro.c InitMastermindBox.c InitMenu.c InitPuzzle.c InitPuzzleJungle.c InitShipEnd.c InitSoundGame.c InitTutoBox.c InitTutoDecryptage.c InitTutoDialogue.c InitTutoDiode.c InitTutoMastermindIntro.c InitTutoPuzzle.c InitTutoPuzzleJungle.c InitVoltage.c Input.c InputDecryptage.c InputDiode.c InputMenu.c InputPlaqueVis.c InputCable.c InputDialogue.c InputMastermindIntro.c InputMastermindBox.c InputPuzzle.c InputPuzzleJungle.c InputSelecteurPerso.c InputTutoBox.c InputTutoDecryptage.c InputTutoDialogue.c InputTutoDiode.c InputTutoMastermindIntro.c InputTutoPuzzle.c InputTutoPuzzleJungle.c InputVoltage.c loadConfig.c main.c MathFonctions.c Reader.c UpdateBedRoomMap.c UpdateCutScene.c UpdateDecryptage.c UpdateDiode.c UpdateIA.c UpdateJungleMap.c UpdatePuzzleJungle.c UpdateSelecteurPerso.c UpdateShipEnd.c UpdateTutoBox.c UpdateTutoDecryptage.c UpdateTutoDialogue.c Update.c UpdatePlaqueVis.c UpdateCable.c UpdateDialogue.c UpdateInGame.c UpdateIntroMap.c UpdateIslandMap.c UpdateMastermindIntro.c UpdateMastermindBox.c UpdateMenu.c UpdatePlayer.c UpdatePuzzle.c UpdateTimer.c UpdateTutoDiode.c UpdateTutoMastermindIntro.c UpdateTutoPuzzle.c UpdateTutoPuzzleJungle.c UpdateVoltage.c
+  ArchiveCode.c
+  Collision.c
+  definition.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(9,18): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(9,49): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(28,56): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(28,84): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(51,48): warning C4090: 'fonction' : qualificateurs 'const' différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(151,16): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\definition.c(156,15): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+  Display.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(10,116): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(11,79): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(12,77): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(14,76): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(19,111): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(20,79): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(21,77): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(22,74): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(635,35): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Display.c(635,49): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+  DisplayBedRoomMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(62,75): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(101,76): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(160,68): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(160,104): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(6,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(29,26): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(31,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(160,14): warning C4101: 'point' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(268,73): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(307,74): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(353,68): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(353,104): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(224,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(235,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(237,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(387,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(389,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayBedRoomMap.c(353,14): warning C4101: 'point' : variable locale non référencée
+  DisplayDecryptage.c
+  DisplayDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDiode.c(147,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDiode.c(148,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDiode.c(153,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDiode.c(154,18): warning C4305: '=' : troncation de 'double' à 'float'
+  DisplayIA.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(10,67): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(10,85): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(10,90): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(21,67): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(21,85): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(21,90): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(32,67): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(32,85): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIA.c(32,90): warning C4305: 'fonction' : troncation de 'double' à 'float'
+  DisplayPlaqueVis.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPlaqueVis.c(48,16): warning C4101: 'temp' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPlaqueVis.c(79,69): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+  DisplayCable.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCable.c(87,169): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCable.c(87,174): warning C4305: 'fonction' : troncation de 'double' à 'float'
+  DisplayCutScene.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(14,31): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(90,38): warning C4305: '-=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(94,38): warning C4305: '+=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(75,8): warning C4101: 'time' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(160,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(189,38): warning C4305: '+=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(193,38): warning C4305: '-=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(200,34): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(212,14): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(216,34): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(227,76): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(236,69): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(236,74): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(237,15): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(268,34): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(291,8): warning C4101: 'time' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(339,69): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(339,74): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(340,15): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(356,68): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(421,64): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(421,69): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(422,15): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(438,64): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(438,69): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayCutScene.c(439,15): warning C4305: '=' : troncation de 'double' à 'float'
+  DisplayDialogue.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(8,55): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(8,60): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(17,52): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(17,57): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(21,52): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(21,57): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(25,52): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(25,57): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(29,52): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayDialogue.c(29,57): warning C4305: 'fonction' : troncation de 'double' à 'float'
+  DisplayIntroMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(192,73): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(231,74): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(290,66): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(290,100): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(136,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(159,26): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(161,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(398,71): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(437,72): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(483,66): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(483,100): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(354,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(365,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(367,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(517,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIntroMap.c(519,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  DisplayIslandMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(8,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(8,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(86,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(86,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(177,74): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(224,75): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(117,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(135,26): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(137,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(333,72): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(380,73): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(281,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(291,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(293,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayIslandMap.c(402,15): warning C4101: 'TempPos' : variable locale non référencée
+  DisplayJungleMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(11,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(11,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(6,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(208,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(208,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(213,5): warning C4047: '!=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(222,5): warning C4047: '!=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(231,5): warning C4047: '!=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(240,5): warning C4047: '!=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(259,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(259,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(264,4): warning C4047: '!=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(283,67): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(283,102): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(278,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(432,75): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(480,76): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(363,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(391,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(393,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(595,72): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(645,73): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(539,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(554,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(556,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(663,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayJungleMap.c(665,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  DisplayMastermindBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindBox.c(78,23): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindBox.c(79,24): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindBox.c(72,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindBox.c(72,50): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  DisplayMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(8,9): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(8,14): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(12,10): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(12,15): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(18,10): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(18,15): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(83,23): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(84,23): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(77,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMastermindIntro.c(77,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  DisplayMenu.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMenu.c(91,111): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayMenu.c(91,117): warning C4305: 'fonction' : troncation de 'double' à 'float'
+  DisplayPuzzle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzle.c(82,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzle.c(83,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzle.c(88,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzle.c(89,18): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzle.c(107,23): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  DisplayPuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzleJungle.c(228,5): warning C4047: '!=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzleJungle.c(108,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayPuzzleJungle.c(108,48): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  Compilation en cours...
+  DisplayShipEndMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(58,75): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(105,76): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(6,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(16,26): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(18,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(173,73): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(220,74): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(121,18): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(131,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(133,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(239,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayShipEndMap.c(241,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  DisplayTimer.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(9,64): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(9,80): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(9,85): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(13,64): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(13,80): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(13,85): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(18,70): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(18,88): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(18,93): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(24,69): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(24,87): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(24,92): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(28,69): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(28,87): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(28,92): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(53,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(54,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(55,80): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(56,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(57,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(62,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(65,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(68,80): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(71,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(74,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(38,35): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(46,35): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(83,63): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(83,79): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(83,84): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(87,69): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(87,87): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(87,92): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(91,69): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(91,87): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(91,92): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(95,69): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(95,87): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(95,92): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(119,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(120,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(121,80): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(122,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(123,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(128,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(131,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(134,80): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(137,87): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(140,85): warning C4244: 'fonction' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(104,35): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTimer.c(112,35): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  DisplayTutoBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(32,54): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(32,60): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(38,55): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(38,61): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(45,55): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\DisplayTutoBox.c(45,61): warning C4305: 'fonction' : troncation de 'double' à 'float'
+  DisplayTutoDecryptage.c
+  DisplayTutoDialogue.c
+  DisplayTutoDiode.c
+  DisplayTutoMastermindIntro.c
+  DisplayTutoPuzzle.c
+  DisplayTutoPuzzleJungle.c
+  DisplayVoltage.c
+  Init.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(86,53): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(87,46): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(88,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(89,59): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(111,49): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(112,50): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(113,48): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(370,17): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(396,35): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(397,35): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(403,92): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(403,116): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(413,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(423,30): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(438,98): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(438,124): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(429,57): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Init.c(447,37): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'sfWindow *'
+  InitAnim.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitAnim.c(8,38): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  InitBedRoomMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitBedRoomMap.c(47,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitBedRoomMap.c(48,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitBedRoomMap.c(54,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitBedRoomMap.c(55,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitDecryptage.c
+  InitDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(98,71): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(99,70): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(100,82): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(104,75): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(105,74): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(106,86): warning C4244: 'fonction' : conversion de 'float' en 'size_t', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(119,53): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(120,47): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(130,53): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(131,47): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(142,53): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDiode.c(143,47): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitIA.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIA.c(26,57): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+  InitPlaqueVis.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(105,102): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'GameData *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(105,99): warning C4024: 'createRectangle' : types différents pour le paramètre formel et réel 5
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(95,52): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(110,49): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(110,82): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPlaqueVis.c(116,92): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+  InitCable.c
+  InitCutScene.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitCutScene.c(7,49): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitCutScene.c(8,50): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+  InitDialogue.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDialogue.c(12,70): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDialogue.c(30,74): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDialogue.c(47,66): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDialogue.c(85,30): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitDialogue.c(133,59): warning C4090: 'fonction' : qualificateurs 'const' différents
+  Compilation en cours...
+  InitIntroMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIntroMap.c(89,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIntroMap.c(90,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIntroMap.c(94,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIntroMap.c(95,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitIslandMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIslandMap.c(52,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIslandMap.c(53,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIslandMap.c(63,52): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitIslandMap.c(64,52): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitJungleMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitJungleMap.c(79,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitJungleMap.c(80,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindIntro.c(101,68): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindIntro.c(172,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindIntro.c(251,64): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitMastermindBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindBox.c(135,67): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindBox.c(194,52): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMastermindBox.c(225,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitMenu.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(44,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(52,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(53,30): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(60,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(68,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(69,70): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(76,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(77,90): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(111,104): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(111,132): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(122,57): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(129,104): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(129,132): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(144,92): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(144,116): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(193,52): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(218,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitMenu.c(281,58): warning C4090: 'fonction' : qualificateurs 'const' différents
+  InitPuzzle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzle.c(233,22): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzle.c(234,22): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  InitPuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(34,72): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(35,72): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(72,65): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(73,65): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(93,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(97,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(100,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(104,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(108,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(112,82): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(116,83): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(121,83): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(125,83): warning C4047: '=' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(192,33): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(209,2): warning C4013: 'InitTutoPuzzleJungle' non défini(e) ; extern retournant int pris par défaut
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitPuzzleJungle.c(50,9): warning C4101: 'chemin' : variable locale non référencée
+  InitShipEnd.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitShipEnd.c(79,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitShipEnd.c(80,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  InitSoundGame.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(88,63): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(154,68): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(200,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(201,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(210,100): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(221,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(222,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(231,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(438,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(439,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(440,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(441,116): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(458,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(459,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(460,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(470,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(484,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(485,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(486,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(499,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(500,106): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(530,104): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(538,120): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(701,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(702,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(703,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(704,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(705,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(706,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(707,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(708,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(709,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(710,108): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(746,68): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(756,120): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(757,120): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(769,120): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(770,120): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(791,60): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitSoundGame.c(802,55): warning C4244: 'fonction' : conversion de 'float' en 'sfBool', perte possible de données
+  InitTutoBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitTutoBox.c(19,73): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+  InitTutoDecryptage.c
+  InitTutoDialogue.c
+  InitTutoDiode.c
+  InitTutoMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitTutoMastermindIntro.c(20,76): warning C4244: '=' : conversion de 'unsigned int' en 'float', perte possible de données
+  InitTutoPuzzle.c
+  InitTutoPuzzleJungle.c
+  InitVoltage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitVoltage.c(62,57): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitVoltage.c(108,43): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InitVoltage.c(154,57): warning C4090: 'fonction' : qualificateurs 'const' différents
+  Input.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(181,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(181,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(362,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(362,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(393,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Input.c(393,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputDecryptage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(46,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(47,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(107,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(108,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(6,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(6,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(10,18): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDecryptage.c(121,20): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  Compilation en cours...
+  InputDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDiode.c(44,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDiode.c(44,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputMenu.c
+  InputPlaqueVis.c
+  InputCable.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputCable.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputCable.c(6,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputDialogue.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDialogue.c(198,43): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputDialogue.c(82,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  InputMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(11,52): warning C4133: 'fonction' : types incompatibles - de 'int [4]' à 'const char *'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(39,45): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(39,57): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(10,38): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(10,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(11,21): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(53,38): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindIntro.c(53,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputMastermindBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindBox.c(17,48): warning C4133: 'fonction' : types incompatibles - de 'int [4]' à 'const char *'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindBox.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindBox.c(6,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputMastermindBox.c(17,21): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  InputPuzzle.c
+  InputPuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputPuzzleJungle.c(6,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputPuzzleJungle.c(6,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputSelecteurPerso.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputSelecteurPerso.c(9,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  InputTutoBox.c
+  InputTutoDecryptage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoDecryptage.c(6,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoDecryptage.c(6,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputTutoDialogue.c
+  InputTutoDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoDiode.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoDiode.c(6,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputTutoMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoMastermindIntro.c(10,38): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoMastermindIntro.c(10,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoMastermindIntro.c(24,38): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoMastermindIntro.c(24,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputTutoPuzzle.c
+  InputTutoPuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoPuzzleJungle.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputTutoPuzzleJungle.c(6,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  InputVoltage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputVoltage.c(6,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\InputVoltage.c(6,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  loadConfig.c
+  main.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\main.c(27,28): warning C4244: 'fonction' : conversion de 'float' en 'DWORD', perte possible de données
+  Compilation en cours...
+  MathFonctions.c
+  Reader.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(9,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(11,17): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(25,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(27,17): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(52,14): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(42,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(44,17): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(142,65): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(142,35): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(337,86): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(337,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(432,88): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(432,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(563,69): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(563,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(663,67): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(663,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(771,81): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(771,35): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(776,17): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(933,74): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(933,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(954,67): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(954,29): warning C4024: 'strcpy' : types différents pour le paramètre formel et réel 2
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(956,56): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(956,18): warning C4024: 'strcmp' : types différents pour le paramètre formel et réel 1
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(959,67): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(959,29): warning C4024: 'strcpy' : types différents pour le paramètre formel et réel 2
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1026,67): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1026,29): warning C4024: 'strcpy' : types différents pour le paramètre formel et réel 2
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1033,57): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1033,15): warning C4024: 'strcmp' : types différents pour le paramètre formel et réel 1
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1161,87): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1161,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1252,84): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1252,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1361,85): warning C4047: 'fonction' : les niveaux d'indirection de 'char *' et de 'char (*)[999]' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Reader.c(1361,36): warning C4024: 'ReadMapChar' : types différents pour le paramètre formel et réel 3
+  UpdateBedRoomMap.c
+  UpdateCutScene.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(21,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(45,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(63,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(68,5): warning C4013: 'InitTimer' non défini(e) ; extern retournant int pris par défaut
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(101,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(124,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(151,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(169,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(190,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(227,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(250,33): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(273,8): warning C4101: 'time' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(329,8): warning C4101: 'time' : variable locale non référencée
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCutScene.c(422,32): warning C4305: '=' : troncation de 'double' à 'float'
+  UpdateDecryptage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateDecryptage.c(6,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateDecryptage.c(6,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateDiode.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateDiode.c(6,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateIA.c
+  UpdateJungleMap.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(58,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(59,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(88,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(89,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(133,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(134,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(160,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateJungleMap.c(161,54): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  UpdatePuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePuzzleJungle.c(36,82): warning C4047: '==' : les niveaux d'indirection de 'sfBool *' et de 'int' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePuzzleJungle.c(104,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePuzzleJungle.c(104,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateSelecteurPerso.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateSelecteurPerso.c(76,70): warning C4047: '==' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateSelecteurPerso.c(97,32): warning C4047: '==' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+  UpdateShipEnd.c
+  UpdateTutoBox.c
+  UpdateTutoDecryptage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoDecryptage.c(6,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoDecryptage.c(6,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateTutoDialogue.c
+  Update.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(37,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(37,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(61,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(61,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(186,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(186,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(201,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\Update.c(201,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdatePlaqueVis.c
+  UpdateCable.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCable.c(20,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateCable.c(20,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateDialogue.c
+  UpdateInGame.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(18,74): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(63,60): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(79,61): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(95,65): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(96,67): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(99,67): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(100,69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(103,69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(104,71): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(107,67): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(108,69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(111,69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(112,71): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(157,152): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(157,191): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(169,152): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(169,191): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(181,143): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(181,182): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(193,151): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(193,190): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(253,149): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(253,189): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(265,149): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(265,189): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(272,159): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(272,199): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(284,149): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(284,189): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(296,149): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(296,189): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(370,158): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(370,199): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(382,149): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(382,190): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(434,151): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(434,191): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(476,158): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(476,199): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(488,158): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateInGame.c(488,199): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateIntroMap.c
+  Compilation en cours...
+  UpdateIslandMap.c
+  UpdateMastermindIntro.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMastermindIntro.c(12,141): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  UpdateMastermindBox.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMastermindBox.c(12,129): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMastermindBox.c(192,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMastermindBox.c(192,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateMenu.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMenu.c(101,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMenu.c(102,42): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMenu.c(119,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMenu.c(137,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateMenu.c(155,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  UpdatePlayer.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(705,31): warning C4047: '=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(741,30): warning C4047: '=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(787,31): warning C4047: '=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(856,19): warning C4047: '=' : les niveaux d'indirection de 'int' et de 'void *' sont différents
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(957,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(958,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(988,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(989,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1009,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1010,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1031,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1032,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1052,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1053,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1074,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1075,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1095,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1096,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1117,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1118,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1138,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1139,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1160,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1161,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1183,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1184,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1204,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1205,58): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePlayer.c(1736,73): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  UpdatePuzzle.c
+  UpdateTimer.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTimer.c(6,29): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTimer.c(27,29): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  UpdateTutoDiode.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoDiode.c(6,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoDiode.c(6,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateTutoMastermindIntro.c
+  UpdateTutoPuzzle.c
+  UpdateTutoPuzzleJungle.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoPuzzleJungle.c(6,35): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateTutoPuzzleJungle.c(6,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  UpdateVoltage.c
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateVoltage.c(5,45): warning C4305: '+=' : troncation de 'double' à 'float'
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateVoltage.c(21,36): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdateVoltage.c(21,49): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  Génération de code en cours
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\roxan\Desktop\Unaware v2.0\ProjetSFML\UpdatePuzzle.c(12): warning C4715: 'GetIdPiece' : les chemins de contrôle ne retournent pas tous une valeur
+  All 391 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  ProjetSFML.vcxproj -> C:\Users\roxan\Desktop\Unaware v2.0\x64\Release\Unaware.exe

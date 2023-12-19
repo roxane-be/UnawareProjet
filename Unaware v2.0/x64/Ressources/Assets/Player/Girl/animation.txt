@@ -1,0 +1,9 @@
+SPRITES 44 idle_haut_1.png idle_haut_2.png idle_haut_3.png idle_haut_4.png idle_bas_1.png idle_bas_2.png idle_bas_3.png idle_bas_4.png idle_gauche_1.png idle_gauche_2.png idle_gauche_3.png idle_gauche_4.png idle_droite_1.png idle_droite_2.png idle_droite_3.png idle_droite_4.png marche_bas_1.png marche_bas_2.png marche_bas_3.png marche_bas_4.png marche_bas_5.png marche_bas_6.png marche_bas_7.png marche_gauche_1.png marche_gauche_2.png marche_gauche_3.png marche_gauche_4.png marche_gauche_5.png marche_gauche_6.png marche_gauche_7.png marche_droite_1.png marche_droite_2.png marche_droite_3.png marche_droite_4.png marche_droite_5.png marche_droite_6.png marche_droite_7.png marche_haut_1.png marche_haut_2.png marche_haut_3.png marche_haut_4.png marche_haut_5.png marche_haut_6.png marche_haut_7.png
+ANIM MARCHE_HAUT 37 43 0.1
+ANIM MARCHE_BAS 16 22 0.1
+ANIM MARCHE_GAUCHE 23 29 0.1
+ANIM MARCHE_DROITE 30 36 0.1
+ANIM IDLE_HAUT 0 3 0.1
+ANIM IDLE_BAS 4 7 0.1
+ANIM IDLE_GAUCHE 8 11 0.1
+ANIM IDLE_DROITE 12 15 0.1

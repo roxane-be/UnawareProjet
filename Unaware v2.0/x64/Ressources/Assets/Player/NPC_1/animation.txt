@@ -1,0 +1,3 @@
+SPRITES 4 idle_bas_1.png idle_bas_2.png idle_bas_3.png idle_bas_4.png
+
+ANIM IDLE_BAS 0 3 0.1

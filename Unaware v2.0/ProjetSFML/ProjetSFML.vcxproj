@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7750825c-78a5-4bf3-8ed7-00f938269452}</ProjectGuid>
+    <RootNamespace>ProjetSFML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Unaware</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_CO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../include;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>csfml-audio.lib;csfml-graphics.lib;csfml-network.lib;csfml-system.lib;csfml-window.lib;freeglut.lib;glew64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../include;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>csfml-audio.lib;csfml-graphics.lib;csfml-network.lib;csfml-system.lib;csfml-window.lib;freeglut.lib;glew64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ArchiveCode.c" />
+    <ClCompile Include="Collision.c" />
+    <ClCompile Include="definition.c" />
+    <ClCompile Include="Display.c" />
+    <ClCompile Include="DisplayBedRoomMap.c" />
+    <ClCompile Include="DisplayDecryptage.c" />
+    <ClCompile Include="DisplayDiode.c" />
+    <ClCompile Include="DisplayIA.c" />
+    <ClCompile Include="DisplayPlaqueVis.c" />
+    <ClCompile Include="DisplayCable.c" />
+    <ClCompile Include="DisplayCutScene.c" />
+    <ClCompile Include="DisplayDialogue.c" />
+    <ClCompile Include="DisplayIntroMap.c" />
+    <ClCompile Include="DisplayIslandMap.c" />
+    <ClCompile Include="DisplayJungleMap.c" />
+    <ClCompile Include="DisplayMastermindBox.c" />
+    <ClCompile Include="DisplayMastermindIntro.c" />
+    <ClCompile Include="DisplayMenu.c" />
+    <ClCompile Include="DisplayPuzzle.c" />
+    <ClCompile Include="DisplayPuzzleJungle.c" />
+    <ClCompile Include="DisplayShipEndMap.c" />
+    <ClCompile Include="DisplayTimer.c" />
+    <ClCompile Include="DisplayTutoBox.c" />
+    <ClCompile Include="DisplayTutoDecryptage.c" />
+    <ClCompile Include="DisplayTutoDialogue.c" />
+    <ClCompile Include="DisplayTutoDiode.c" />
+    <ClCompile Include="DisplayTutoMastermindIntro.c" />
+    <ClCompile Include="DisplayTutoPuzzle.c" />
+    <ClCompile Include="DisplayTutoPuzzleJungle.c" />
+    <ClCompile Include="DisplayVoltage.c" />
+    <ClCompile Include="Init.c" />
+    <ClCompile Include="InitAnim.c" />
+    <ClCompile Include="InitBedRoomMap.c" />
+    <ClCompile Include="InitDecryptage.c" />
+    <ClCompile Include="InitDiode.c" />
+    <ClCompile Include="InitIA.c" />
+    <ClCompile Include="InitPlaqueVis.c" />
+    <ClCompile Include="InitCable.c" />
+    <ClCompile Include="InitCutScene.c" />
+    <ClCompile Include="InitDialogue.c" />
+    <ClCompile Include="InitIntroMap.c" />
+    <ClCompile Include="InitIslandMap.c" />
+    <ClCompile Include="InitJungleMap.c" />
+    <ClCompile Include="InitMastermindIntro.c" />
+    <ClCompile Include="InitMastermindBox.c" />
+    <ClCompile Include="InitMenu.c" />
+    <ClCompile Include="InitPuzzle.c" />
+    <ClCompile Include="InitPuzzleJungle.c" />
+    <ClCompile Include="InitShipEnd.c" />
+    <ClCompile Include="InitSoundGame.c" />
+    <ClCompile Include="InitTutoBox.c" />
+    <ClCompile Include="InitTutoDecryptage.c" />
+    <ClCompile Include="InitTutoDialogue.c" />
+    <ClCompile Include="InitTutoDiode.c" />
+    <ClCompile Include="InitTutoMastermindIntro.c" />
+    <ClCompile Include="InitTutoPuzzle.c" />
+    <ClCompile Include="InitTutoPuzzleJungle.c" />
+    <ClCompile Include="InitVoltage.c" />
+    <ClCompile Include="Input.c" />
+    <ClCompile Include="InputDecryptage.c" />
+    <ClCompile Include="InputDiode.c" />
+    <ClCompile Include="InputMenu.c" />
+    <ClCompile Include="InputPlaqueVis.c" />
+    <ClCompile Include="InputCable.c" />
+    <ClCompile Include="InputDialogue.c" />
+    <ClCompile Include="InputMastermindIntro.c" />
+    <ClCompile Include="InputMastermindBox.c" />
+    <ClCompile Include="InputPuzzle.c" />
+    <ClCompile Include="InputPuzzleJungle.c" />
+    <ClCompile Include="InputSelecteurPerso.c" />
+    <ClCompile Include="InputTutoBox.c" />
+    <ClCompile Include="InputTutoDecryptage.c" />
+    <ClCompile Include="InputTutoDialogue.c" />
+    <ClCompile Include="InputTutoDiode.c" />
+    <ClCompile Include="InputTutoMastermindIntro.c" />
+    <ClCompile Include="InputTutoPuzzle.c" />
+    <ClCompile Include="InputTutoPuzzleJungle.c" />
+    <ClCompile Include="InputVoltage.c" />
+    <ClCompile Include="loadConfig.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="MathFonctions.c" />
+    <ClCompile Include="Reader.c" />
+    <ClCompile Include="UpdateBedRoomMap.c" />
+    <ClCompile Include="UpdateCutScene.c" />
+    <ClCompile Include="UpdateDecryptage.c" />
+    <ClCompile Include="UpdateDiode.c" />
+    <ClCompile Include="UpdateIA.c" />
+    <ClCompile Include="UpdateJungleMap.c" />
+    <ClCompile Include="UpdatePuzzleJungle.c" />
+    <ClCompile Include="UpdateSelecteurPerso.c" />
+    <ClCompile Include="UpdateShipEnd.c" />
+    <ClCompile Include="UpdateTutoBox.c" />
+    <ClCompile Include="UpdateTutoDecryptage.c" />
+    <ClCompile Include="UpdateTutoDialogue.c" />
+    <ClCompile Include="Update.c" />
+    <ClCompile Include="UpdatePlaqueVis.c" />
+    <ClCompile Include="UpdateCable.c" />
+    <ClCompile Include="UpdateDialogue.c" />
+    <ClCompile Include="UpdateInGame.c" />
+    <ClCompile Include="UpdateIntroMap.c" />
+    <ClCompile Include="UpdateIslandMap.c" />
+    <ClCompile Include="UpdateMastermindIntro.c" />
+    <ClCompile Include="UpdateMastermindBox.c" />
+    <ClCompile Include="UpdateMenu.c" />
+    <ClCompile Include="UpdatePlayer.c" />
+    <ClCompile Include="UpdatePuzzle.c" />
+    <ClCompile Include="UpdateTimer.c" />
+    <ClCompile Include="UpdateTutoDiode.c" />
+    <ClCompile Include="UpdateTutoMastermindIntro.c" />
+    <ClCompile Include="UpdateTutoPuzzle.c" />
+    <ClCompile Include="UpdateTutoPuzzleJungle.c" />
+    <ClCompile Include="UpdateVoltage.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="definitionDecryptage.h" />
+    <ClInclude Include="definitionDiode.h" />
+    <ClInclude Include="definitionPlaqueVis.h" />
+    <ClInclude Include="definitionCable.h" />
+    <ClInclude Include="definitionCutScene.h" />
+    <ClInclude Include="definitionDialogue.h" />
+    <ClInclude Include="definitionMap.h" />
+    <ClInclude Include="definitionMastermind.h" />
+    <ClInclude Include="definitionMenu.h" />
+    <ClInclude Include="definitionPuzzle.h" />
+    <ClInclude Include="definitionPuzzleJungle.h" />
+    <ClInclude Include="definitionVoltage.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="DisplayBedRoomMap.h" />
+    <ClInclude Include="DisplayDecryptage.h" />
+    <ClInclude Include="DisplayDiode.h" />
+    <ClInclude Include="DisplayIA.h" />
+    <ClInclude Include="DisplayPlaqueVis.h" />
+    <ClInclude Include="DisplayCable.h" />
+    <ClInclude Include="DisplayCutScene.h" />
+    <ClInclude Include="DisplayDialogue.h" />
+    <ClInclude Include="DisplayIntroMap.h" />
+    <ClInclude Include="DisplayIslandMap.h" />
+    <ClInclude Include="DisplayJungleMap.h" />
+    <ClInclude Include="DisplayMastermindIntro.h" />
+    <ClInclude Include="DisplayMastermindBox.h" />
+    <ClInclude Include="DisplayMenu.h" />
+    <ClInclude Include="DisplayPuzzle.h" />
+    <ClInclude Include="definitionEntities.h" />
+    <ClInclude Include="DisplayPuzzleJungle.h" />
+    <ClInclude Include="DisplayShipEndMap.h" />
+    <ClInclude Include="DisplayTimer.h" />
+    <ClInclude Include="DisplayTutoBox.h" />
+    <ClInclude Include="DisplayTutoDecryptage.h" />
+    <ClInclude Include="DisplayTutoDialogue.h" />
+    <ClInclude Include="DisplayTutoDiode.h" />
+    <ClInclude Include="DisplayTutoMastermindIntro.h" />
+    <ClInclude Include="DisplayTutoPuzzle.h" />
+    <ClInclude Include="DisplayTutoPuzzleJungle.h" />
+    <ClInclude Include="DisplayVoltage.h" />
+    <ClInclude Include="Init.h" />
+    <ClInclude Include="InitAnim.h" />
+    <ClInclude Include="InitBedRoomMap.h" />
+    <ClInclude Include="InitDecryptage.h" />
+    <ClInclude Include="InitDiode.h" />
+    <ClInclude Include="InitIA.h" />
+    <ClInclude Include="InitPlaqueVis.h" />
+    <ClInclude Include="InitCable.h" />
+    <ClInclude Include="InitCutScene.h" />
+    <ClInclude Include="InitDialogue.h" />
+    <ClInclude Include="InitIntroMap.h" />
+    <ClInclude Include="InitIslandMap.h" />
+    <ClInclude Include="InitJungleMap.h" />
+    <ClInclude Include="InitMastermindBox.h" />
+    <ClInclude Include="InitMastermindIntro.h" />
+    <ClInclude Include="InitMenu.h" />
+    <ClInclude Include="InitPuzzle.h" />
+    <ClInclude Include="InitPuzzleJungle.h" />
+    <ClInclude Include="InitShipEndMap.h" />
+    <ClInclude Include="InitSoundGame.h" />
+    <ClInclude Include="InitTutoBox.h" />
+    <ClInclude Include="InitTutoDecryptage.h" />
+    <ClInclude Include="InitTutoDialogue.h" />
+    <ClInclude Include="InitTutoDiode.h" />
+    <ClInclude Include="InitTutoMastermindIntro.h" />
+    <ClInclude Include="InitTutoPuzzle.h" />
+    <ClInclude Include="InitTutoPuzzleJungle.h" />
+    <ClInclude Include="InitVoltage.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputDecryptage.h" />
+    <ClInclude Include="InputDiode.h" />
+    <ClInclude Include="InputMenu.h" />
+    <ClInclude Include="InputPlaqueVis.h" />
+    <ClInclude Include="InputCable.h" />
+    <ClInclude Include="InputMastermindIntro.h" />
+    <ClInclude Include="InputMastermindBox.h" />
+    <ClInclude Include="InputPuzzle.h" />
+    <ClInclude Include="InputPuzzleJungle.h" />
+    <ClInclude Include="InputSelecteurPerso.h" />
+    <ClInclude Include="InputTutoBox.h" />
+    <ClInclude Include="InputTutoDecryptage.h" />
+    <ClInclude Include="InputTutoDialogue.h" />
+    <ClInclude Include="InputTutoDiode.h" />
+    <ClInclude Include="InputTutoMastermindIntro.h" />
+    <ClInclude Include="InputTutoPuzzle.h" />
+    <ClInclude Include="InputTutoPuzzleJungle.h" />
+    <ClInclude Include="InputVoltage.h" />
+    <ClInclude Include="loadConfig.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Update.h" />
+    <ClInclude Include="UpdateBedRoomMap.h" />
+    <ClInclude Include="UpdateDecryptage.h" />
+    <ClInclude Include="UpdateDiode.h" />
+    <ClInclude Include="UpdateIA.h" />
+    <ClInclude Include="UpdatePlaqueVis.h" />
+    <ClInclude Include="UpdateCable.h" />
+    <ClInclude Include="UpdateCutScene.h" />
+    <ClInclude Include="UpdateDialogue.h" />
+    <ClInclude Include="UpdateInGame.h" />
+    <ClInclude Include="UpdateIntroMap.h" />
+    <ClInclude Include="UpdateIslandMap.h" />
+    <ClInclude Include="UpdateJungleMap.h" />
+    <ClInclude Include="UpdateMastermindIntro.h" />
+    <ClInclude Include="UpdateMastermindBox.h" />
+    <ClInclude Include="UpdateMenu.h" />
+    <ClInclude Include="UpdatePlayer.h" />
+    <ClInclude Include="UpdatePuzzle.h" />
+    <ClInclude Include="UpdatePuzzleJungle.h" />
+    <ClInclude Include="UpdateSelecteurPerso.h" />
+    <ClInclude Include="UpdateShipEndMap.h" />
+    <ClInclude Include="UpdateTimer.h" />
+    <ClInclude Include="UpdateTutoBox.h" />
+    <ClInclude Include="UpdateTutoDecryptage.h" />
+    <ClInclude Include="UpdateTutoDialogue.h" />
+    <ClInclude Include="UpdateTutoDiode.h" />
+    <ClInclude Include="UpdateTutoMastermindIntro.h" />
+    <ClInclude Include="UpdateTutoPuzzle.h" />
+    <ClInclude Include="UpdateTutoPuzzleJungle.h" />
+    <ClInclude Include="UpdateVoltage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InputDialogue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Unaware.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Ressources\Assets\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

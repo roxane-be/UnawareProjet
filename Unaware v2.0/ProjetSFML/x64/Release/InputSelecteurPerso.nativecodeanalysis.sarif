@@ -1,0 +1,2239 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29336.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x001EB1D0 -il C:\\Users\\kathl\\AppData\\Local\\Temp\\_CL_f763f7b4ast -typedil -f InputSelecteurPerso.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829336 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I D:\\Documents\\Creajeux\\1ere\\Projet\\Unaware\\Build\\0 - Actual\\Unaware v2.0 bugbugbbug\\Unaware v2.0\\include -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Release\\InputSelecteurPerso.obj -Fdx64\\Release\\vc142.pdb -Gd -analyze:projectdirectory D:\\Documents\\Creajeux\\1ere\\Projet\\Unaware\\Build\\0 - Actual\\Unaware v2.0 bugbugbbug\\Unaware v2.0\\ProjetSFML -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I D:\\Documents\\Creajeux\\1ere\\Projet\\Unaware\\Build\\0 - Actual\\Unaware v2.0 bugbugbbug\\Unaware v2.0\\ProjetSFML\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaypuzzlejungle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaypuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definition.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/config.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/clock.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/export.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/time.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/inputstream.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/mutex.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/sleep.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/thread.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/vector2.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/system/vector3.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/clipboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/export.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/context.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/window.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/event.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/joystick.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/joystickidentification.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/keyboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/mouse.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/sensor.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/videomode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/windowhandle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/cursor.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/window/touch.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/blendmode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/export.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/circleshape.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/color.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/rect.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/transform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/convexshape.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/font.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/fontinfo.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/glyph.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/image.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/primitivetype.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/rectangleshape.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/renderstates.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/rendertexture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/vertex.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/renderwindow.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/shader.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/glsl.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/shape.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/sprite.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/text.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/texture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/transformable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/vertexarray.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/vertexbuffer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/graphics/view.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/opengl.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/ftp.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/export.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/ipaddress.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/http.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/packet.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/socketselector.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/socketstatus.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/tcplistener.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/tcpsocket.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/network/udpsocket.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/listener.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/export.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/music.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/soundstatus.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/sound.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/soundbuffer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/soundbufferrecorder.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/soundrecorder.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/include/sfml/audio/soundstream.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionentities.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionmastermind.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionpuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitiondialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionplaquevis.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitioncable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionvoltage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionpuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitiondiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitiondecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitionmenu.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definitioncutscene.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/collision.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/mathfonctions.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaypuzzle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaypuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymenu.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymenu.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymastermindintro.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatemastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initcutscene.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initmastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutomastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymastermindbox.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaymastermindbox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatemastermindbox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayjunglemap.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayjunglemap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayislandmap.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayislandmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayintromap.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayintromap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydialogue.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaycutscene.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaycutscene.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/init.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initmastermindbox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutobox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initpuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutopuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initdialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initplaquevis.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initcable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initvoltage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initdiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initpuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initdecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initintromap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initislandmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/reader.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initanim.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initbedroommap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initjunglemap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initshipendmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initmenu.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initsoundgame.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initia.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaycable.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaycable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayplaquevis.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayplaquevis.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayia.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayia.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydiode.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaydecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaybedroommap.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaybedroommap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/display.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/display.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayvoltage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutomastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutopuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutobox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutopuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayshipendmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytimer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/definition.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/Collision.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/archivecode.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initdialogue.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initcutscene.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initcable.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitPlaqueVis.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initia.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitDiode.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initdecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitBedRoomMap.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitAnim.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/Init.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayvoltage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutopuzzlejungle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutopuzzle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutomastermindintro.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodiode.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodialogue.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutodecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytutobox.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displaytimer.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/displayshipendmap.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputdecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputdecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/input.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/input.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputmastermindbox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputmastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputpuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatepuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputdialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatedialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputplaquevis.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputcable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatecable.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputvoltage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputdiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputpuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatepuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutomastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutopuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutobox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutopuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputselecteurperso.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputmenu.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateplayer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateingame.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateia.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initvoltage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutopuzzlejungle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutopuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutopuzzle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutomastermindintro.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodiode.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodialogue.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutodecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inittutobox.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initsoundgame.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitShipEnd.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/initpuzzlejungle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitPuzzle.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitMenu.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitMastermindBox.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitMastermindIntro.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitJungleMap.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitIslandMap.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/InitIntroMap.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Documents/Creajeux/1ere/Projet/Unaware/Build/0 - Actual/Unaware v2.0 bugbugbbug/Unaware v2.0/ProjetSFML/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/update.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateplaquevis.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatevoltage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatediode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatedecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutomastermindintro.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutopuzzle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutodialogue.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutobox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutodiode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutopuzzlejungle.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetutodecryptage.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatemenu.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateintromap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateislandmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatebedroommap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatejunglemap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateshipendmap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatetimer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updatecutscene.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/updateselecteurperso.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/loadconfig.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/loadconfig.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputvoltage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutopuzzlejungle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutopuzzle.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutomastermindintro.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodiode.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodialogue.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutodecryptage.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputtutobox.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///d:/documents/creajeux/1ere/projet/unaware/build/0 - actual/unaware v2.0 bugbugbbug/unaware v2.0/projetsfml/inputselecteurperso.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Update">
+      <UniqueIdentifier>{fc7ce121-6d12-44c6-8964-bf1865443f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init">
+      <UniqueIdentifier>{853e5d68-0f72-49d2-afdb-bac30c38ab1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display">
+      <UniqueIdentifier>{df20537a-2602-4562-8980-8b68f49a9bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Gestion">
+      <UniqueIdentifier>{a66c2c4a-c9b4-4280-9c19-cb594f6df9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init">
+      <UniqueIdentifier>{c71b9ea7-8dac-4875-b3f9-2e0e1293386f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gestion">
+      <UniqueIdentifier>{d06a4cc2-bf8c-444d-ba00-7c7665af63f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display">
+      <UniqueIdentifier>{29993280-2321-4a85-a88f-6da2666f7e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update">
+      <UniqueIdentifier>{47432efe-cdc1-495d-ab44-09f35c63ab2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gestion\definitions">
+      <UniqueIdentifier>{db14a77d-46cf-4fb6-8ed0-67b025133e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme">
+      <UniqueIdentifier>{da3d3375-41c5-4d16-ad83-7e6a750867ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme">
+      <UniqueIdentifier>{6fc934b5-aa92-496f-9b58-a7efd5bdd23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme">
+      <UniqueIdentifier>{2f564407-1c90-4a56-ab00-3c7e2ef23836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme">
+      <UniqueIdentifier>{60a035f9-47ff-42e8-9484-6c4459cc2685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme">
+      <UniqueIdentifier>{15c1e285-bb6f-47bc-98d3-4aa3188c50d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme">
+      <UniqueIdentifier>{ba83479b-f4c7-4f6b-99fc-4a594a7dff5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Parseur">
+      <UniqueIdentifier>{8754e0fa-4611-487f-9daa-a1910675db12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Parseur">
+      <UniqueIdentifier>{55e1fd57-7e83-4dc8-94ca-d82f0ccaa21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Intro">
+      <UniqueIdentifier>{de8ad0fc-4ee5-4279-b8fa-b9a8f3dbc3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Island">
+      <UniqueIdentifier>{7a47d8df-d9c4-4414-810a-2992c9b5c299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Intro">
+      <UniqueIdentifier>{82ba4047-a6bc-402d-864b-717185e7d147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Island">
+      <UniqueIdentifier>{8fb332c0-3851-486f-a4f0-44a0a7c3c4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Intro">
+      <UniqueIdentifier>{009ec56a-fbe2-4410-b67d-0e86d947cc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Island">
+      <UniqueIdentifier>{fc96e216-2282-4291-b174-2f7423807821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Intro">
+      <UniqueIdentifier>{ebd7ca19-dfb7-4a96-b3ba-7df018058ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Island">
+      <UniqueIdentifier>{db08e972-101e-46ef-a537-bfadda3cb617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Menu">
+      <UniqueIdentifier>{d9923f78-b23f-4d3e-8456-1b1c660047bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\InGame">
+      <UniqueIdentifier>{8c258f36-bc49-46df-a0a7-b32bcbdbf36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Menu">
+      <UniqueIdentifier>{040b524f-d0b0-4eca-8792-4828d993e988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Menu">
+      <UniqueIdentifier>{6c65e2b7-c904-461b-a4e6-2f6781a52ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\InGame">
+      <UniqueIdentifier>{2680448e-75ef-4080-b093-e0f06d5ade64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Menu">
+      <UniqueIdentifier>{903bacdb-374e-42fe-a181-7dc40e2ae1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\InGame">
+      <UniqueIdentifier>{df3e4833-0494-42d7-a86d-b87f78358126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\InGame">
+      <UniqueIdentifier>{109d622f-e875-47a4-92eb-ae43736be661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Intro">
+      <UniqueIdentifier>{fff1c68d-5016-46cb-ae0b-f7fe7efa4ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Island">
+      <UniqueIdentifier>{b9f2f13a-2b75-4df6-ae8c-36259d2559d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Intro">
+      <UniqueIdentifier>{d2012884-0e57-4126-9408-af2a997446ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Island">
+      <UniqueIdentifier>{7f3f995b-dee2-4286-b83e-82d238968b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Menu">
+      <UniqueIdentifier>{0fbf0663-1ca9-4b11-a771-9c530d1db124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Menu">
+      <UniqueIdentifier>{45ce3d92-ad24-4854-aa36-6716f60747cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gestion\definitions\enigme">
+      <UniqueIdentifier>{94c07a05-69ad-4878-abe1-534ec47d63de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input">
+      <UniqueIdentifier>{b6b5b7aa-42f5-4387-97e9-7fd8fa913967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur">
+      <UniqueIdentifier>{288fd964-40d9-4fce-9078-3eb4b2b6a7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur\Intro">
+      <UniqueIdentifier>{494e1c83-bb68-4967-b585-44f82d5fc668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur\Island">
+      <UniqueIdentifier>{3ecdaff0-e483-433f-a7f8-494f64d07f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur">
+      <UniqueIdentifier>{ba1ef7ca-8c11-480e-9012-66c818936b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur\Intro">
+      <UniqueIdentifier>{dd4640d9-0661-48fd-be4f-a21c036fbf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur\Island">
+      <UniqueIdentifier>{be40ec9d-04d1-4aad-beb7-325881bfb26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur">
+      <UniqueIdentifier>{02de5dc8-c59e-41df-b2e3-3fda06fb961d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur\Intro">
+      <UniqueIdentifier>{311df32f-f6ed-42e8-b5c0-08f80c52ac3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur\Island">
+      <UniqueIdentifier>{fbc5e260-1910-4aa9-b39e-e26673b70a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur">
+      <UniqueIdentifier>{8ef7c225-7f8e-44e9-9b2d-a2f419ab45f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur\Intro">
+      <UniqueIdentifier>{4e3dab50-38e0-447f-8298-c8bb4d170af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur\Island">
+      <UniqueIdentifier>{ba05ec56-811c-44e7-8b66-b8aa490d2cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur">
+      <UniqueIdentifier>{83067d7d-1cf6-4788-87b6-030cb0173c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur\Intro">
+      <UniqueIdentifier>{4979bce5-51eb-44dc-b53f-7aa91615ce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur\Island">
+      <UniqueIdentifier>{2c92cc7d-71d5-4eed-a626-4e6c39f1f610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input">
+      <UniqueIdentifier>{cae5713e-d4f4-4dd5-9bf6-ecad14fd11a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme">
+      <UniqueIdentifier>{7e85b88e-4738-4c52-88d7-d07ae4eacce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Island">
+      <UniqueIdentifier>{29f203db-fe48-49bd-b2cb-21e7f89f02fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Intro">
+      <UniqueIdentifier>{90c746aa-7837-430a-b7b2-22f10f93843c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme">
+      <UniqueIdentifier>{7bd0a23c-2f48-439d-8c9a-5fe86958767c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Intro">
+      <UniqueIdentifier>{6d66a253-1a86-472a-b0f3-8c4a572f58aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Island">
+      <UniqueIdentifier>{8ad202fd-e2a4-4c71-a703-e57bfa6a00d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Island\Tuto">
+      <UniqueIdentifier>{298848ce-71f4-48bb-8fbb-26ad65af430c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Island\Tuto">
+      <UniqueIdentifier>{8b677404-8698-4e2e-96a2-f958be75a53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Island\Tuto">
+      <UniqueIdentifier>{a508d125-6097-42d8-8f07-1725fc10e4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Island\Tuto">
+      <UniqueIdentifier>{a3c00da5-4730-4ef4-b475-7a8e14bdce5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Island\Tuto">
+      <UniqueIdentifier>{f1caffce-b644-4175-b8c2-4eedcdba292c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Island\Tuto">
+      <UniqueIdentifier>{ca6bc713-2ada-4fcf-bdeb-1d67c4bb684d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Island\Tuto">
+      <UniqueIdentifier>{a849b8a0-d713-41fb-bda5-dbf331f57b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Island\Tuto">
+      <UniqueIdentifier>{d065a15a-a625-4cbb-a9e6-64ebc12b9398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Intro\Tuto">
+      <UniqueIdentifier>{665f00ba-8327-4a72-ad9f-3a41419a9e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Intro\Tuto">
+      <UniqueIdentifier>{0f85b100-7beb-446d-b8c6-b27ea73f0ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Intro\Tuto">
+      <UniqueIdentifier>{f344646d-9b3e-4be0-a38c-6372e4cd572b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Intro\Tuto">
+      <UniqueIdentifier>{eb1d73e2-d5e3-4b35-b739-92b9fbe96a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Intro\Tuto">
+      <UniqueIdentifier>{be542412-84fc-44e7-a29a-31563cc3a8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Intro\Tuto">
+      <UniqueIdentifier>{2c6872af-2a0a-4778-a6ab-35e881248914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Sound">
+      <UniqueIdentifier>{b20f1fe9-ec67-4973-8695-94e431702dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Sound">
+      <UniqueIdentifier>{bd48e6b4-16d5-45e7-8f18-55f666b88f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Intro\Tuto">
+      <UniqueIdentifier>{b2df9152-6a7b-4be0-a194-d545363f5126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Intro\Tuto">
+      <UniqueIdentifier>{7c84c190-044a-4f3d-9b46-133f73e2a23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur\BedRoom">
+      <UniqueIdentifier>{f1618b2c-561e-4891-9265-b01c18b389ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur\BedRoom">
+      <UniqueIdentifier>{558572cc-bea7-4212-9356-0d84982917a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur\BedRoom">
+      <UniqueIdentifier>{0ec3f3ea-e1f1-4566-85d5-9dcf25ebf39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur\BedRoom">
+      <UniqueIdentifier>{5dceaa66-5d87-4816-8986-a82395880b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur\BedRoom">
+      <UniqueIdentifier>{0bbdd57c-7b27-4bab-b619-d75c690d3d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur">
+      <UniqueIdentifier>{392275c1-a7ea-4c1e-b22e-ffeee1e1d473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur\Intro">
+      <UniqueIdentifier>{3e651d27-2a62-4e04-8a84-aa6798cf3aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur\Island">
+      <UniqueIdentifier>{619247bd-44de-4006-a5bc-46f34815a20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur\BedRoom">
+      <UniqueIdentifier>{487a900d-a179-4036-bff6-3cdb5ce01e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\CutScene">
+      <UniqueIdentifier>{4025f696-e62f-48de-8eab-a931df8cefda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\CutScene">
+      <UniqueIdentifier>{d7ba7fae-b5d8-4558-9832-45fc009d0227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\InGame">
+      <UniqueIdentifier>{d5726fde-02d5-44db-b684-96d37c2d13de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\CutScene">
+      <UniqueIdentifier>{caf6ccd3-4146-42a0-9c30-c1d085782fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\InGame">
+      <UniqueIdentifier>{4440297e-dcf6-44f6-8048-8b806935469a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\CutScene">
+      <UniqueIdentifier>{d6b04768-6a95-4290-bc3a-568304c3d295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\CutScene">
+      <UniqueIdentifier>{03cb2d94-0d1c-4be3-bec9-3c567ec234cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\CutScene">
+      <UniqueIdentifier>{69e7c20e-4a50-4107-aa66-2a517c54a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur\Jungle">
+      <UniqueIdentifier>{cff6fff4-0de9-4711-8afc-78c10af51650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur\Jungle">
+      <UniqueIdentifier>{404e9474-49cc-484c-9ff2-9ee958b3a565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur\Jungle">
+      <UniqueIdentifier>{f0625ecd-3509-4359-b519-033cc6a6bb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur\Jungle">
+      <UniqueIdentifier>{55ac2e91-279e-446f-87fa-1aa3891fc235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur\Jungle">
+      <UniqueIdentifier>{fdd6b3cb-39f5-495b-a403-52882494be30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur\Jungle">
+      <UniqueIdentifier>{15e803f4-bfa0-4c48-959f-ea0ee94e00c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\Menu">
+      <UniqueIdentifier>{2d583f25-7466-4a64-b574-1015a75abf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\Menu">
+      <UniqueIdentifier>{eaeba9c8-97da-49b6-8de5-223ec007f3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Jungle">
+      <UniqueIdentifier>{0e3d0c56-5f5f-48ad-ab26-14ae1f8d9ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Jungle">
+      <UniqueIdentifier>{c76c90ff-51cf-42be-a924-4751929a4e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Jungle">
+      <UniqueIdentifier>{629e6c84-1580-475b-a5f4-260d2cbe640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Jungle">
+      <UniqueIdentifier>{acefacf2-9cf6-425f-8c16-a926e2d82efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Jungle">
+      <UniqueIdentifier>{17fdaa39-b106-425e-b428-d435da4d5f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Jungle">
+      <UniqueIdentifier>{986a02fa-8257-4c0e-ad4f-fbce6637803a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Jungle">
+      <UniqueIdentifier>{f57eb856-1b0c-4b2b-99c1-8685af180a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{1081573b-2abb-47ea-8cd5-53feaa987f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{ee703e2b-c53c-4ec5-81c7-79e59fbe4bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{e207d9d4-33f4-49d7-8758-8a6dfeafbf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{fe2425bc-cd8b-4aaf-9295-30fec416486d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Jungle">
+      <UniqueIdentifier>{3691bcae-7206-4327-82f2-2e0ac4eb6e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{762ce778-fa8f-4035-b7e0-d8afa1f980f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{89278e67-2248-4335-97f9-e7ab6cc2d366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{ecb31dfc-5a00-456c-9fbc-da9bd3890efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Input\enigme\Jungle\Tuto">
+      <UniqueIdentifier>{978f15b5-3499-422f-bbba-204d34131a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Display\Parseur\ShipEnd">
+      <UniqueIdentifier>{92b0cf74-5c2b-4d21-8a86-682d697f2a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Init\Parseur\ShipEnd">
+      <UniqueIdentifier>{7b2d441e-5f9c-4e24-89fc-5d7d81d38f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Update\Parseur\ShipEnd">
+      <UniqueIdentifier>{30d7d774-590a-4f4a-a827-f78ac4863efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Update\Parseur\ShipEnd">
+      <UniqueIdentifier>{6a0bbd0e-8702-4205-9a7f-4e24f190467f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Init\Parseur\ShipEnd">
+      <UniqueIdentifier>{8ad38720-3a6f-4673-857b-558d48143268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Display\Parseur\ShipEnd">
+      <UniqueIdentifier>{08dd86fc-143f-408f-8e20-c4638cc93cb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Init.c">
+      <Filter>Fichiers sources\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.c">
+      <Filter>Fichiers sources\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="loadConfig.c">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="definition.c">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFonctions.c">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.c">
+      <Filter>Fichiers sources\Gestion</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.c">
+      <Filter>Fichiers sources\Parseur</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatePuzzle.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitPuzzle.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayPuzzle.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitMenu.c">
+      <Filter>Fichiers sources\Init\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InitAnim.c">
+      <Filter>Fichiers sources\Init\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMenu.c">
+      <Filter>Fichiers sources\Display\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateInGame.c">
+      <Filter>Fichiers sources\Update\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDialogue.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDialogue.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayDialogue.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMenu.c">
+      <Filter>Fichiers sources\Update\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.c">
+      <Filter>Fichiers sources\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="InitMastermindBox.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitMastermindIntro.c">
+      <Filter>Fichiers sources\Init\enigme\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMastermindIntro.c">
+      <Filter>Fichiers sources\Display\enigme\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMastermindBox.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveCode.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMastermindBox.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMastermindIntro.c">
+      <Filter>Fichiers sources\Update\enigme\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMastermindIntro.c">
+      <Filter>Fichiers sources\Input\enigme\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMastermindBox.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialogue.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPuzzle.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayIntroMap.c">
+      <Filter>Fichiers sources\Display\Parseur\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayIslandMap.c">
+      <Filter>Fichiers sources\Display\Parseur\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitIntroMap.c">
+      <Filter>Fichiers sources\Init\Parseur\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="InitIslandMap.c">
+      <Filter>Fichiers sources\Init\Parseur\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateIntroMap.c">
+      <Filter>Fichiers sources\Update\Parseur\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateIslandMap.c">
+      <Filter>Fichiers sources\Update\Parseur\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTimer.c">
+      <Filter>Fichiers sources\Update\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatePlayer.c">
+      <Filter>Fichiers sources\Update\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCable.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitCable.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCable.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateCable.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoPuzzle.c">
+      <Filter>Fichiers sources\Init\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoPuzzle.c">
+      <Filter>Fichiers sources\Input\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoPuzzle.c">
+      <Filter>Fichiers sources\Update\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoPuzzle.c">
+      <Filter>Fichiers sources\Display\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoMastermindIntro.c">
+      <Filter>Fichiers sources\Display\enigme\Intro\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoMastermindIntro.c">
+      <Filter>Fichiers sources\Input\enigme\Intro\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoMastermindIntro.c">
+      <Filter>Fichiers sources\Init\enigme\Intro\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSoundGame.c">
+      <Filter>Fichiers sources\Init\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoMastermindIntro.c">
+      <Filter>Fichiers sources\Update\enigme\Intro\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoDialogue.c">
+      <Filter>Fichiers sources\Init\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoDialogue.c">
+      <Filter>Fichiers sources\Input\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoDialogue.c">
+      <Filter>Fichiers sources\Update\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoDialogue.c">
+      <Filter>Fichiers sources\Display\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayVoltage.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InitVoltage.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InputVoltage.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateVoltage.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayBedRoomMap.c">
+      <Filter>Fichiers sources\Display\Parseur\BedRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="InitBedRoomMap.c">
+      <Filter>Fichiers sources\Init\Parseur\BedRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBedRoomMap.c">
+      <Filter>Fichiers sources\Update\Parseur\BedRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="InitCutScene.c">
+      <Filter>Fichiers sources\Init\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTimer.c">
+      <Filter>Fichiers sources\Display\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCutScene.c">
+      <Filter>Fichiers sources\Display\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateCutScene.c">
+      <Filter>Fichiers sources\Update\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateJungleMap.c">
+      <Filter>Fichiers sources\Update\Parseur\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InitJungleMap.c">
+      <Filter>Fichiers sources\Init\Parseur\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayJungleMap.c">
+      <Filter>Fichiers sources\Display\Parseur\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoBox.c">
+      <Filter>Fichiers sources\Init\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoBox.c">
+      <Filter>Fichiers sources\Display\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoBox.c">
+      <Filter>Fichiers sources\Input\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoBox.c">
+      <Filter>Fichiers sources\Update\enigme\Island\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitPlaqueVis.c">
+      <Filter>Fichiers sources\Init\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayPlaqueVis.c">
+      <Filter>Fichiers sources\Display\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatePlaqueVis.c">
+      <Filter>Fichiers sources\Update\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPlaqueVis.c">
+      <Filter>Fichiers sources\Input\enigme\Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateSelecteurPerso.c">
+      <Filter>Fichiers sources\Update\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSelecteurPerso.c">
+      <Filter>Fichiers sources\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayDiode.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDiode.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDiode.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMenu.c">
+      <Filter>Fichiers sources\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InitIA.c">
+      <Filter>Fichiers sources\Init\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayIA.c">
+      <Filter>Fichiers sources\Display\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateIA.c">
+      <Filter>Fichiers sources\Update\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoDiode.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoDiode.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoDiode.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDiode.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoDiode.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayPuzzleJungle.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InitPuzzleJungle.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatePuzzleJungle.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPuzzleJungle.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayDecryptage.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDecryptage.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDecryptage.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoPuzzleJungle.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoPuzzleJungle.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoPuzzleJungle.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoPuzzleJungle.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateShipEnd.c">
+      <Filter>Fichiers sources\Update\Parseur\ShipEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="InitShipEnd.c">
+      <Filter>Fichiers sources\Init\Parseur\ShipEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayShipEndMap.c">
+      <Filter>Fichiers sources\Display\Parseur\ShipEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTutoDecryptage.c">
+      <Filter>Fichiers sources\Display\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InitTutoDecryptage.c">
+      <Filter>Fichiers sources\Init\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTutoDecryptage.c">
+      <Filter>Fichiers sources\Input\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTutoDecryptage.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle\Tuto</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDecryptage.c">
+      <Filter>Fichiers sources\Update\enigme\Jungle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Init.h">
+      <Filter>Fichiers d%27en-tête\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="loadConfig.h">
+      <Filter>Fichiers d%27en-tête\Gestion</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Fichiers d%27en-tête\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Fichiers d%27en-tête\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionMap.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Fichiers d%27en-tête\Parseur</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatePuzzle.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMenu.h">
+      <Filter>Fichiers d%27en-tête\Init\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InitAnim.h">
+      <Filter>Fichiers d%27en-tête\Init\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionEntities.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayMenu.h">
+      <Filter>Fichiers d%27en-tête\Display\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateInGame.h">
+      <Filter>Fichiers d%27en-tête\Update\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InitPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDialogue.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDialogue.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayDialogue.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionMenu.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateMenu.h">
+      <Filter>Fichiers d%27en-tête\Update\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionDialogue.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionMastermind.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMastermindBox.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayMastermindBox.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateMastermindBox.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateIslandMap.h">
+      <Filter>Fichiers d%27en-tête\Update\Parseur\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateIntroMap.h">
+      <Filter>Fichiers d%27en-tête\Update\Parseur\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="InitIslandMap.h">
+      <Filter>Fichiers d%27en-tête\Init\Parseur\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitIntroMap.h">
+      <Filter>Fichiers d%27en-tête\Init\Parseur\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayIntroMap.h">
+      <Filter>Fichiers d%27en-tête\Display\Parseur\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayIslandMap.h">
+      <Filter>Fichiers d%27en-tête\Display\Parseur\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTimer.h">
+      <Filter>Fichiers d%27en-tête\Update\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMastermindBox.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Fichiers d%27en-tête\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatePlayer.h">
+      <Filter>Fichiers d%27en-tête\Update\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionCable.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCable.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitCable.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCable.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateCable.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoPuzzle.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Intro\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Intro\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Intro\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitSoundGame.h">
+      <Filter>Fichiers d%27en-tête\Init\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoMastermindIntro.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Intro\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoDialogue.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoDialogue.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoDialogue.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoDialogue.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionVoltage.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayVoltage.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InitVoltage.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InputVoltage.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateVoltage.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayBedRoomMap.h">
+      <Filter>Fichiers d%27en-tête\Display\Parseur\BedRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="InitBedRoomMap.h">
+      <Filter>Fichiers d%27en-tête\Init\Parseur\BedRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBedRoomMap.h">
+      <Filter>Fichiers d%27en-tête\Update\Parseur\BedRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionCutScene.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="InitCutScene.h">
+      <Filter>Fichiers d%27en-tête\Init\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTimer.h">
+      <Filter>Fichiers d%27en-tête\Display\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCutScene.h">
+      <Filter>Fichiers d%27en-tête\Display\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateCutScene.h">
+      <Filter>Fichiers d%27en-tête\Update\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayJungleMap.h">
+      <Filter>Fichiers d%27en-tête\Display\Parseur\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InitJungleMap.h">
+      <Filter>Fichiers d%27en-tête\Init\Parseur\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateJungleMap.h">
+      <Filter>Fichiers d%27en-tête\Update\Parseur\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoBox.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoBox.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoBox.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoBox.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitPlaqueVis.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayPlaqueVis.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPlaqueVis.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatePlaqueVis.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Island</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionPlaqueVis.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateSelecteurPerso.h">
+      <Filter>Fichiers d%27en-tête\Update\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSelecteurPerso.h">
+      <Filter>Fichiers d%27en-tête\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionDiode.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayDiode.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDiode.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDiode.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDiode.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMenu.h">
+      <Filter>Fichiers d%27en-tête\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InitIA.h">
+      <Filter>Fichiers d%27en-tête\Init\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayIA.h">
+      <Filter>Fichiers d%27en-tête\Display\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateIA.h">
+      <Filter>Fichiers d%27en-tête\Update\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoDiode.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoDiode.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoDiode.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoDiode.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InitPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatePuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="definitionDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Gestion\definitions\enigme</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoPuzzleJungle.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayShipEndMap.h">
+      <Filter>Fichiers d%27en-tête\Display\Parseur\ShipEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="InitShipEndMap.h">
+      <Filter>Fichiers d%27en-tête\Init\Parseur\ShipEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateShipEndMap.h">
+      <Filter>Fichiers d%27en-tête\Update\Parseur\ShipEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayTutoDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Display\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InitTutoDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Init\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTutoDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateTutoDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle\Tuto</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDecryptage.h">
+      <Filter>Fichiers d%27en-tête\Update\enigme\Jungle</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InputDialogue.h">
+      <Filter>Fichiers d%27en-tête\Input\enigme\Island</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Unaware.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Ressources\Assets\icon.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
